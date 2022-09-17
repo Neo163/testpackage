@@ -1,0 +1,22 @@
+{
+    "name": "neo163/testpackage",
+    "autoload": {
+        "psr-4": {
+            "Neo163\\Testpackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neo163\\Testpackage\\TestpackageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Neo",
+            "email": "2993598820@qq.com"
+        }
+    ],
+    "require": {}
+}
